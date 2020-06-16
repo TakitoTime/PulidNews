@@ -1,0 +1,57 @@
+.card{
+    width: 60%;
+    display: flex;
+    margin: 20px;
+    background-color: white;
+}
+
+.image{
+    width: 45%;
+    height: 450px;
+    display: block;
+    padding: 5px;   
+}
+
+.img{
+    width: 100%;
+    height: 450px;
+}
+
+.contenido{
+    width: 75%;
+    padding: 5px;
+    padding-left: 40px;
+    text-align: justify;
+    display: block;
+}
+
+.titulo{
+    width: 100%;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.fechacolaborador{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fecha{
+    width: 30%;
+    text-align: left;
+}
+
+.colaborador{
+    width: 70%;
+    text-align: right;
+}
+
+.resumen{
+    width: 100%;
+    height: 180px;
+    font-size: 24px;
+}

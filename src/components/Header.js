@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-import ImagePrincipal from '../img/principal.jpg'
+
+import {ImageHeader} from '../components/ImageHeader'
 
 import styles from '../css/header.module.css'
 
@@ -8,9 +9,7 @@ export class Header extends Component{
     render(){
         return(
             <div>
-                <div className={styles.image}>
-                    <img classname={styles.image.img} src={ImagePrincipal} alt='Principal'/>
-                </div>
+                <ImageHeader/>
                 <div className={styles.descripcion}>
                     <div className={styles.texto}>
                         <h2 className='title'>Descripcion</h2>
