@@ -1,0 +1,10 @@
+.masvistos{
+    width: 28%;
+    display: block;
+}
+
+.titulo{
+    width: 100%;
+    height: 30px;
+    background: #363636;
+}
