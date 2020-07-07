@@ -9,6 +9,8 @@ export class Noticias extends Component{
             <div>
                 <NoticiasCard/>
                 <NoticiasCard/>
+                <NoticiasCard/>
+                <NoticiasCard/>
             </div>
         )
     }

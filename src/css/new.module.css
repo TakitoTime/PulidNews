@@ -1,0 +1,9 @@
+.contenedor{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
